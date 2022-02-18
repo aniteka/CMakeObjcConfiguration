@@ -1,0 +1,3 @@
+/home/ani/objc/CMakeFiles/edit_cache.dir
+/home/ani/objc/CMakeFiles/rebuild_cache.dir
+/home/ani/objc/CMakeFiles/HelloWorld.dir
