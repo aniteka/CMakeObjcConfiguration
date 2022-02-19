@@ -1,1 +1,1 @@
-/usr/bin/cc   -rdynamic CMakeFiles/HelloWorld.dir/hello.m.o  -o HelloWorld  -lgnustep-base -lobjc 
+clang   -rdynamic CMakeFiles/HelloWorld.dir/src/hello.m.o  -o HelloWorld  -lgnustep-base -lobjc -lBlocksRuntime 

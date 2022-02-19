@@ -57,27 +57,27 @@ include CMakeFiles/HelloWorld.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/HelloWorld.dir/flags.make
 
-CMakeFiles/HelloWorld.dir/hello.m.o: CMakeFiles/HelloWorld.dir/flags.make
-CMakeFiles/HelloWorld.dir/hello.m.o: hello.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ani/objc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HelloWorld.dir/hello.m.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HelloWorld.dir/hello.m.o   -c /home/ani/objc/hello.m
+CMakeFiles/HelloWorld.dir/src/hello.m.o: CMakeFiles/HelloWorld.dir/flags.make
+CMakeFiles/HelloWorld.dir/src/hello.m.o: src/hello.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ani/objc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HelloWorld.dir/src/hello.m.o"
+	clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HelloWorld.dir/src/hello.m.o   -c /home/ani/objc/src/hello.m
 
-CMakeFiles/HelloWorld.dir/hello.m.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HelloWorld.dir/hello.m.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ani/objc/hello.m > CMakeFiles/HelloWorld.dir/hello.m.i
+CMakeFiles/HelloWorld.dir/src/hello.m.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HelloWorld.dir/src/hello.m.i"
+	clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ani/objc/src/hello.m > CMakeFiles/HelloWorld.dir/src/hello.m.i
 
-CMakeFiles/HelloWorld.dir/hello.m.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HelloWorld.dir/hello.m.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ani/objc/hello.m -o CMakeFiles/HelloWorld.dir/hello.m.s
+CMakeFiles/HelloWorld.dir/src/hello.m.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HelloWorld.dir/src/hello.m.s"
+	clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ani/objc/src/hello.m -o CMakeFiles/HelloWorld.dir/src/hello.m.s
 
 # Object files for target HelloWorld
 HelloWorld_OBJECTS = \
-"CMakeFiles/HelloWorld.dir/hello.m.o"
+"CMakeFiles/HelloWorld.dir/src/hello.m.o"
 
 # External object files for target HelloWorld
 HelloWorld_EXTERNAL_OBJECTS =
 
-HelloWorld: CMakeFiles/HelloWorld.dir/hello.m.o
+HelloWorld: CMakeFiles/HelloWorld.dir/src/hello.m.o
 HelloWorld: CMakeFiles/HelloWorld.dir/build.make
 HelloWorld: CMakeFiles/HelloWorld.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ani/objc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable HelloWorld"

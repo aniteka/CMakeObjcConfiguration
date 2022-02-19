@@ -123,32 +123,32 @@ HelloWorld/fast:
 	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/build
 .PHONY : HelloWorld/fast
 
-hello.o: hello.m.o
+src/hello.o: src/hello.m.o
 
-.PHONY : hello.o
+.PHONY : src/hello.o
 
 # target to build an object file
-hello.m.o:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/hello.m.o
-.PHONY : hello.m.o
+src/hello.m.o:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/hello.m.o
+.PHONY : src/hello.m.o
 
-hello.i: hello.m.i
+src/hello.i: src/hello.m.i
 
-.PHONY : hello.i
+.PHONY : src/hello.i
 
 # target to preprocess a source file
-hello.m.i:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/hello.m.i
-.PHONY : hello.m.i
+src/hello.m.i:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/hello.m.i
+.PHONY : src/hello.m.i
 
-hello.s: hello.m.s
+src/hello.s: src/hello.m.s
 
-.PHONY : hello.s
+.PHONY : src/hello.s
 
 # target to generate assembly for a file
-hello.m.s:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/hello.m.s
-.PHONY : hello.m.s
+src/hello.m.s:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/hello.m.s
+.PHONY : src/hello.m.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... HelloWorld"
-	@echo "... hello.o"
-	@echo "... hello.i"
-	@echo "... hello.s"
+	@echo "... src/hello.o"
+	@echo "... src/hello.i"
+	@echo "... src/hello.s"
 .PHONY : help
 
 
