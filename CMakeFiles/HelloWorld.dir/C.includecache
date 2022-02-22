@@ -6,7 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/ani/objc/src/hello.m
+/home/ani/objc/src/Person.h
+defines.h
+/home/ani/objc/src/defines.h
+
+/home/ani/objc/src/Worker.h
+defines.h
+/home/ani/objc/src/defines.h
+Person.h
+/home/ani/objc/src/Person.h
+
+/home/ani/objc/src/anEvklidAlgorithm.h
+defines.h
+/home/ani/objc/src/defines.h
+
+/home/ani/objc/src/defines.h
 Foundation/Foundation.h
 -
+
+/home/ani/objc/src/hello.m
+defines.h
+/home/ani/objc/src/defines.h
+Person.h
+/home/ani/objc/src/Person.h
+Worker.h
+/home/ani/objc/src/Worker.h
+anEvklidAlgorithm.h
+/home/ani/objc/src/anEvklidAlgorithm.h
 

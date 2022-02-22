@@ -1,5 +1,5 @@
-CMakeFiles/HelloWorld.dir/src/hello.m.o: /home/ani/objc/src/hello.m \
-  /home/ani/objc/src/defines.h \
+CMakeFiles/HelloWorld.dir/src/Person.m.o: /home/ani/objc/src/Person.m \
+  /home/ani/objc/src/Person.h /home/ani/objc/src/defines.h \
   /usr/include/GNUstep/Foundation/Foundation.h \
   /usr/include/GNUstep/GNUstepBase/GSVersionMacros.h \
   /usr/include/GNUstep/GNUstepBase/GSConfig.h \
@@ -148,9 +148,9 @@ CMakeFiles/HelloWorld.dir/src/hello.m.o: /home/ani/objc/src/hello.m \
   /usr/include/GNUstep/Foundation/NSXMLDTD.h \
   /usr/include/GNUstep/Foundation/NSXMLDTDNode.h \
   /usr/include/GNUstep/Foundation/NSXMLElement.h \
-  /usr/include/GNUstep/Foundation/NSXMLParser.h \
-  /home/ani/objc/src/Person.h /home/ani/objc/src/Worker.h \
-  /home/ani/objc/src/anEvklidAlgorithm.h
+  /usr/include/GNUstep/Foundation/NSXMLParser.h
+
+/home/ani/objc/src/Person.h:
 
 /home/ani/objc/src/defines.h:
 
@@ -451,9 +451,3 @@ CMakeFiles/HelloWorld.dir/src/hello.m.o: /home/ani/objc/src/hello.m \
 /usr/include/GNUstep/Foundation/NSXMLElement.h:
 
 /usr/include/GNUstep/Foundation/NSXMLParser.h:
-
-/home/ani/objc/src/Person.h:
-
-/home/ani/objc/src/Worker.h:
-
-/home/ani/objc/src/anEvklidAlgorithm.h:

@@ -123,6 +123,60 @@ HelloWorld/fast:
 	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/build
 .PHONY : HelloWorld/fast
 
+src/Person.o: src/Person.m.o
+
+.PHONY : src/Person.o
+
+# target to build an object file
+src/Person.m.o:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Person.m.o
+.PHONY : src/Person.m.o
+
+src/Person.i: src/Person.m.i
+
+.PHONY : src/Person.i
+
+# target to preprocess a source file
+src/Person.m.i:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Person.m.i
+.PHONY : src/Person.m.i
+
+src/Person.s: src/Person.m.s
+
+.PHONY : src/Person.s
+
+# target to generate assembly for a file
+src/Person.m.s:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Person.m.s
+.PHONY : src/Person.m.s
+
+src/Worker.o: src/Worker.m.o
+
+.PHONY : src/Worker.o
+
+# target to build an object file
+src/Worker.m.o:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Worker.m.o
+.PHONY : src/Worker.m.o
+
+src/Worker.i: src/Worker.m.i
+
+.PHONY : src/Worker.i
+
+# target to preprocess a source file
+src/Worker.m.i:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Worker.m.i
+.PHONY : src/Worker.m.i
+
+src/Worker.s: src/Worker.m.s
+
+.PHONY : src/Worker.s
+
+# target to generate assembly for a file
+src/Worker.m.s:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Worker.m.s
+.PHONY : src/Worker.m.s
+
 src/hello.o: src/hello.m.o
 
 .PHONY : src/hello.o
@@ -159,6 +213,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... HelloWorld"
+	@echo "... src/Person.o"
+	@echo "... src/Person.i"
+	@echo "... src/Person.s"
+	@echo "... src/Worker.o"
+	@echo "... src/Worker.i"
+	@echo "... src/Worker.s"
 	@echo "... src/hello.o"
 	@echo "... src/hello.i"
 	@echo "... src/hello.s"

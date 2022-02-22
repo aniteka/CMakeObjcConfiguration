@@ -1,7 +1,17 @@
 [
 {
   "directory": "/home/ani/objc",
-  "command": "clang  -I/home/ani/objc/usr/include/GNUstep    -MMD -MP -DGNUSTEP -DGNUSTEP_BASE_LIBRARY=1 -DGNU_GUI_LIBRARY=1 -DGNU_RUNTIME=1 -fno-strict-aliasing -fexceptions -fobjc-exceptions -D_NATIVE_OBJC_EXCEPTIONS -pthread -fPIC -Wall -DGSWARN -DGSDIAGNOSE -Wno-import -g -O2 -fgnu-runtime -fconstant-string-class=NSConstantString -I. -I/home/ani/GNUstep/Library/Headers -I/usr/local/include/GNUstep -I/usr/include/GNUstep -I/usr/lib/gcc/x86_64-linux-gnu/9/include -o CMakeFiles/HelloWorld.dir/src/hello.m.o   -c /home/ani/objc/src/hello.m",
+  "command": "clang  -I/home/ani/objc/usr/include/GNUstep    -MMD -MP -DGNUSTEP -DGNUSTEP_BASE_LIBRARY=1 -DGNU_GUI_LIBRARY=1 -DGNU_RUNTIME=1 -fno-strict-aliasing -fexceptions -fobjc-exceptions -D_NATIVE_OBJC_EXCEPTIONS -pthread -fPIC -Wall -DGSWARN -DGSDIAGNOSE -Wno-import -g -fblocks -O2 -fgnu-runtime -fconstant-string-class=NSConstantString -I. -I/home/ani/GNUstep/Library/Headers -I/usr/local/include/GNUstep -I/usr/include/GNUstep -I./libobjc2 -o CMakeFiles/HelloWorld.dir/src/hello.m.o   -c /home/ani/objc/src/hello.m",
   "file": "/home/ani/objc/src/hello.m"
+},
+{
+  "directory": "/home/ani/objc",
+  "command": "clang  -I/home/ani/objc/usr/include/GNUstep    -MMD -MP -DGNUSTEP -DGNUSTEP_BASE_LIBRARY=1 -DGNU_GUI_LIBRARY=1 -DGNU_RUNTIME=1 -fno-strict-aliasing -fexceptions -fobjc-exceptions -D_NATIVE_OBJC_EXCEPTIONS -pthread -fPIC -Wall -DGSWARN -DGSDIAGNOSE -Wno-import -g -fblocks -O2 -fgnu-runtime -fconstant-string-class=NSConstantString -I. -I/home/ani/GNUstep/Library/Headers -I/usr/local/include/GNUstep -I/usr/include/GNUstep -I./libobjc2 -o CMakeFiles/HelloWorld.dir/src/Person.m.o   -c /home/ani/objc/src/Person.m",
+  "file": "/home/ani/objc/src/Person.m"
+},
+{
+  "directory": "/home/ani/objc",
+  "command": "clang  -I/home/ani/objc/usr/include/GNUstep    -MMD -MP -DGNUSTEP -DGNUSTEP_BASE_LIBRARY=1 -DGNU_GUI_LIBRARY=1 -DGNU_RUNTIME=1 -fno-strict-aliasing -fexceptions -fobjc-exceptions -D_NATIVE_OBJC_EXCEPTIONS -pthread -fPIC -Wall -DGSWARN -DGSDIAGNOSE -Wno-import -g -fblocks -O2 -fgnu-runtime -fconstant-string-class=NSConstantString -I. -I/home/ani/GNUstep/Library/Headers -I/usr/local/include/GNUstep -I/usr/include/GNUstep -I./libobjc2 -o CMakeFiles/HelloWorld.dir/src/Worker.m.o   -c /home/ani/objc/src/Worker.m",
+  "file": "/home/ani/objc/src/Worker.m"
 }
 ]

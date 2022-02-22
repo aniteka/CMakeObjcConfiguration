@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/ani/objc/src/Person.m" "/home/ani/objc/CMakeFiles/HelloWorld.dir/src/Person.m.o"
+  "/home/ani/objc/src/Worker.m" "/home/ani/objc/CMakeFiles/HelloWorld.dir/src/Worker.m.o"
   "/home/ani/objc/src/hello.m" "/home/ani/objc/CMakeFiles/HelloWorld.dir/src/hello.m.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
